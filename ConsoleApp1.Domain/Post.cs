@@ -1,11 +1,10 @@
-﻿namespace ConsoleApp1.Domain
+﻿namespace ConsoleApp1.Domain;
+
+public class Post
 {
-    public class Post
-    {
-        public int PostId { get; set; }
-        public string Title { get; set; } = null!;
-        public string Content { get; set; } = null!;
-        public int BlogId { get; set; }
-        public Blog Blog { get; set; } = null!;
-    }
+    public int PostId { get; set; }
+    public string Title { get; set; } = null!;
+    public string Content { get; set; } = null!;
+    public int BlogId { get; set; }
+    public Blog Blog { get; set; } = null!;
 }

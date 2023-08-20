@@ -1,7 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using ConsoleApp1.Data;
+﻿using ConsoleApp1.Data;
 using ConsoleApp1.Domain;
 
 var blog = CreateBlog();
